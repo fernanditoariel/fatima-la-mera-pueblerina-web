@@ -1,3 +1,4 @@
 # Version con video de fondo en el hero
+# rev 2
 User-agent: *
 Allow: /
