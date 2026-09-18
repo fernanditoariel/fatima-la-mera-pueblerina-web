@@ -931,7 +931,8 @@ p{ margin: 0; }
 .footer a:hover{ color: var(--pink-soft); }
 
 .footer__photo{
-  margin: 48px 0 0;
+  margin: 48px auto 0;
+  width: min(100%, 300px);
   border-radius: var(--radius-lg);
   overflow: hidden;
 }
@@ -939,13 +940,9 @@ p{ margin: 0; }
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 21 / 9;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
-  object-position: 50% 34%;
-}
-@media (max-width: 640px){
-  .footer__photo{ border-radius: var(--radius-soft); }
-  .footer__photo img{ aspect-ratio: 4 / 3; object-position: 50% 30%; }
+  object-position: 50% 40%;
 }
 
 .footer__bottom{
